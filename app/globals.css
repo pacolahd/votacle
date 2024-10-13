@@ -2,7 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+html {
+  background-color: white;
+}
+
+html.dark {
+  background-color: black;
+  color: white;
+}
+
+.bg-purple-700 {
+  background-color: #6b5ce4;
+  /* Replace with your purple */
+}
+
+.bg-purple-900 {
+  background-color: #4a3cb8;
+  /* Replace with your darker purple */
+}
+
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -24,4 +43,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
