@@ -1,3 +1,5 @@
+Due to machine incapaility, we were unable to use dfx since we use windows and were not able to get WSL for some reasons. In refinements, changes will be made and will be connected to the IC
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
