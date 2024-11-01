@@ -27,29 +27,37 @@ export default function Header() {
               </svg>
             </div>
             <ul
-              tabIndex={0}
-              className="menu menu-sm dropdown-content bg-gray-200 rounded-box z-[1] mt-3 w-52 p-2 shadow-lg"
+                tabIndex={0}
+                className="menu menu-sm dropdown-content bg-gray-200 rounded-box z-[1] mt-3 w-52 p-2 shadow-lg"
             >
               <li>
                 <Link
-                  href="/dashboard/elections"
-                  className="btn btn-ghost normal-case text-lg text-gray-800 hover:text-blue-600 transition duration-300"
+                    href="/dashboard/elections"
+                    className="btn btn-ghost normal-case text-lg text-gray-800 hover:text-blue-600 transition duration-300"
                 >
                   Elections
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/dashboard/myelections"
-                  className="btn btn-ghost normal-case text-lg text-gray-800 hover:text-blue-600 transition duration-300"
+                    href="/dashboard/electionnews"
+                    className="btn btn-ghost normal-case text-lg text-gray-800 hover:text-blue-600 transition duration-300"
+                >
+                  Election News
+                </Link>
+              </li>
+              <li>
+                <Link
+                    href="/dashboard/myelections"
+                    className="btn btn-ghost normal-case text-lg text-gray-800 hover:text-blue-600 transition duration-300"
                 >
                   My Elections
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/dashboard/ommunities"
-                  className="btn btn-ghost normal-case text-lg text-gray-800 hover:text-blue-600 transition duration-300"
+                    href="/dashboard/communities"
+                    className="btn btn-ghost normal-case text-lg text-gray-800 hover:text-blue-600 transition duration-300"
                 >
                   Communities
                 </Link>
@@ -59,9 +67,9 @@ export default function Header() {
           {/* Logo as a link to the homepage */}
           <Link href="/" className="flex items-center ml-2">
             <img
-              src={votacleLogoText.src}
-              alt="Votacle Logo"
-              className="h-8 transition-transform duration-300 hover:scale-105"
+                src={votacleLogoText.src}
+                alt="Votacle Logo"
+                className="h-8 transition-transform duration-300 hover:scale-105"
             />
           </Link>
         </div>
@@ -69,24 +77,32 @@ export default function Header() {
           <ul className="menu menu-horizontal px-1">
             <li>
               <Link
-                href="/dashboard/elections"
-                className="btn btn-ghost normal-case text-lg text-gray-800 hover:text-blue-600 transition duration-300"
+                  href="/dashboard/elections"
+                  className="btn btn-ghost normal-case text-lg text-gray-800 hover:text-blue-600 transition duration-300"
               >
                 Elections
               </Link>
             </li>
             <li>
               <Link
-                href="/dashboard/myelections"
-                className="btn btn-ghost normal-case text-lg text-gray-800 hover:text-blue-600 transition duration-300"
+                  href="/dashboard/electionnews"
+                  className="btn btn-ghost normal-case text-lg text-gray-800 hover:text-blue-600 transition duration-300"
+              >
+                Election News
+              </Link>
+            </li>
+            <li>
+              <Link
+                  href="/dashboard/myelections"
+                  className="btn btn-ghost normal-case text-lg text-gray-800 hover:text-blue-600 transition duration-300"
               >
                 My Elections
               </Link>
             </li>
             <li>
               <Link
-                href="/dashboard/communities"
-                className="btn btn-ghost normal-case text-lg text-gray-800 hover:text-blue-600 transition duration-300"
+                  href="/dashboard/communities"
+                  className="btn btn-ghost normal-case text-lg text-gray-800 hover:text-blue-600 transition duration-300"
               >
                 Communities
               </Link>
@@ -96,7 +112,8 @@ export default function Header() {
         <div className="navbar-end flex items-center">
           <Link href="/dashboard/profile" className="mr-3">
             <div className="avatar w-10">
-              <div className="w-10 rounded-full border-2 border-gray-800 shadow-lg transition-transform duration-300 hover:scale-110">
+              <div
+                  className="w-10 rounded-full border-2 border-gray-800 shadow-lg transition-transform duration-300 hover:scale-110">
                 <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
               </div>
             </div>
