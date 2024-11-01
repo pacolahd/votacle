@@ -1,0 +1,11 @@
+[
+  {
+    "scraper": "XTwitterScraper",
+    "endpoint": "data/twitter/tweets/recent",
+    "priority": 1,
+    "params": {
+      "query": "uselections since:2024-10-27 until:2024-10-31",
+      "count": 100
+    }
+  }
+]
